@@ -1,18 +1,21 @@
-## Getting Started
+# DIO - Trilha Java Básico
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+#### Criador do Desafio
+  - [Gleyson Sampaio](https://github.com/glysns)
 
-## Folder Structure
+#### Link para o desafio
+  - [Trilha Java Básico](https://github.com/digitalinnovationone/trilha-java-basico/tree/main/desafios/sintaxe)
 
-The workspace contains two folders by default, where:
+## Descrição
+  O desafio consiste na aplicação de conhecimentos básicos de Java para inserção de dados no contexto de preenchimento
+  de informações pessoais em uma conta bancária. A lógica envolve a utilização da classe Scanner e a inserção das seguintes
+  variáveis via terminal.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+  | Tipo  | Atributo       
+| --------- | ---------
+|String| Nome do Cliente  
+|String| Agência     
+|Integer| Número         
+|Double| Saldo 
+  
+  Após inserir os dados, o código retorna uma mensagem para o usuário com os dados de sua conta.
